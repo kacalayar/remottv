@@ -67,8 +67,8 @@ public class BSJson {
             Log.d("BSJson : ", "Verify purchase to server");
         }
         AndroidNetworking.get("https://api.envato.com/v3/market/author/sale")
-                .addHeaders("Authorization", "Bearer 031Cm94VBFWVIwOGuyvfTcvvmvF3EM9b")
-                .addHeaders("User-Agent", "Purchase code verification on benkkstudio.xyz")
+                .addHeaders("Authorization", "Bearer 5CZXrrM34RPf7ukUzCKqod2BAcQJNKE6")
+                .addHeaders("User-Agent", "Purchase code verification")
                 .addQueryParameter("code", Constant.purchaseCode)
                 .setPriority(Priority.MEDIUM)
                 .build()
